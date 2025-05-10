@@ -22,6 +22,6 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: core-build
-          path: core/build/libs/*.jar
+          name: build
+          path: /
           retention-days: 7
